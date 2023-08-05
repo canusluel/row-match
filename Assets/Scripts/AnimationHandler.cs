@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class AnimationHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Animator startPanelAnimator;
     public Animator levelsPopupAnimator;
 

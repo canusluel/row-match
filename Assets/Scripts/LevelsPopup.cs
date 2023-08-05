@@ -13,7 +13,6 @@ public class LevelsPopup : MonoBehaviour
 
     private void Start()
     {
-        //PlayerPrefs.DeleteAll();
         List<LevelData> levels = LevelDataManager.instance.levels;
         foreach (LevelData level in levels)
         {
