@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
+using System;
 
 public class GamePlayManager : MonoBehaviour
 {
@@ -147,6 +148,8 @@ public class GamePlayManager : MonoBehaviour
             {
                 FinishGame();
             }
+        }else{
+            isSwitchingTiles = false;
         }
     }
 
